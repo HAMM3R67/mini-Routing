@@ -1,6 +1,7 @@
 var app = angular.module('miniRouting', ['ngRoute']);
 
 app.config(function($routeProvider){
+	$routeProvider
 	.when('/', {
 		templateUrl: 'js/home/homeTmple.html',
 		controller: 'homehomeCtrl'
