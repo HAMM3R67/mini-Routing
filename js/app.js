@@ -1,1 +1,1 @@
-var app = angular.module('miniRouting', []);
+var app = angular.module('miniRouting', ['ngRoute']);
